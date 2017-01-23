@@ -1,24 +1,16 @@
-# README
+# Alternative Facts
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Making America Great Again, One Falsehood At A Time
 
-Things you may want to cover:
+Inspired by the first "unofficial" press briefing by the Trump administration, this Ruby on Rails application allows a user to present their own versions of reality for all to see and share.  Very much open to contributions to this project!
 
-* Ruby version
+Clone this repo, run bundle install, and run rake db:migrate to set up the database tables
 
-* System dependencies
+Utilizing the Devise gem for Authentication, CanCanCan gem for Authorization, Bootswatch-rails gem for some basic design templating
 
-* Configuration
+Added Disqus commented tool to each individual "Fact" instead of rolling our own
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Todo / Wishlist:
+* Add "tweet" functionality
+* Add ability to upload an image
+* Add voting mechanism
